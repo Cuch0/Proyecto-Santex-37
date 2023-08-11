@@ -1,0 +1,136 @@
+.homePage {
+    overflow: hidden;
+    position: relative;
+
+    .dEslogan {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 225, 195);
+        opacity: 85%;
+        z-index: 1;
+        align-items: center;
+
+        .logoInst {
+            margin-left: 20px;
+            width: 20px;
+            height: 20px;
+            border-radius: 6px;
+            &:hover{
+                background-color: rgb(255, 255, 255);
+            }
+        }
+        
+        .aInstLogo {
+            height: 20px;
+        }
+
+        .msjEslogan {
+            margin: 0px;
+            margin-left: 764px;
+            font-style: italic;
+            color: rgb(125, 105, 35);
+        }
+    }
+
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: 110px;
+        background-color: rgb(40, 95, 55);
+        opacity: 85%;
+        z-index: 1;
+        align-items: center;
+
+        .dLogo {
+            display: flex;
+            height: 88px;
+
+            .imgLogo {
+                margin-left: 20px;
+                border-radius: 50%;
+                &:hover{
+                    background-color: rgb(88, 138, 101);
+                }
+            }
+        }
+
+        .dInicio {
+            display: flex;
+            justify-content: center;
+            width: 580px;
+            & .aInicio {
+                text-decoration: none;
+                width: 75px;
+            }
+            & h2 {
+                display: flex;
+                justify-content: center;
+                font-size: 22px;
+                color: rgb(255, 255, 255);
+                margin: 0px;
+                width: 75px;
+                height: 18px;
+                align-items: center;
+                &:hover{
+                    color: rgb(255, 225, 195);
+                }
+            }
+        }
+
+        .dProd {
+            display: flex;
+            width: 551px;
+            justify-content: space-between;
+            & a {
+                text-decoration: none;
+            }
+            & h2 {
+                display: flex;
+                font-size: 22px;
+                color: white;
+                margin: 0px;
+                height: 18px;
+                align-items: center;
+                &:hover{
+                    color: rgb(255, 225, 195);
+                }
+            }
+        }
+
+        .dMiCuenta {
+            display: flex;
+            width: 666px;
+            justify-content: flex-end;
+            .aMiCuenta {
+                margin-right: 50px;
+                .iMicuenta {
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+                .pMiCuenta {
+                    color: white;
+                    margin: 0px;
+                    width: 82px;
+                    font-weight: bold;
+                    &:hover{
+                        color: rgb(255, 225, 195);
+                    }
+                }
+            }
+        }
+    }
+
+    .homePageImg {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    }
+}
